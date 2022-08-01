@@ -9,11 +9,11 @@
 
     <name>libs-core-api</name>
     <description>Core API - Events and Commands</description>
-    <properties>
-        <kotlin-test.version>1.7.0</kotlin-test.version>
-        <kotlin-stdlib.version>1.7.10</kotlin-stdlib.version>
-        <axon-spring-boot-starter.version>4.5.14</axon-spring-boot-starter.version>
-    </properties>
+<!--    <properties>-->
+<!--&lt;!&ndash;        <kotlin-test.version>1.7.0</kotlin-test.version>&ndash;&gt;-->
+<!--&lt;!&ndash;        <kotlin-stdlib.version>1.7.10</kotlin-stdlib.version>&ndash;&gt;-->
+<!--&lt;!&ndash;        <axon-spring-boot-starter.version>4.5.14</axon-spring-boot-starter.version>&ndash;&gt;-->
+<!--    </properties>-->
 
     <parent>
         <artifactId>pf-libs</artifactId>
@@ -21,51 +21,51 @@
         <version>0.1.0</version>
     </parent>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-lang3</artifactId>
-            <version>3.12.0</version>
-        </dependency>
+<!--    <dependencies>-->
+<!--        <dependency>-->
+<!--            <groupId>org.apache.commons</groupId>-->
+<!--            <artifactId>commons-lang3</artifactId>-->
+<!--            <version>3.12.0</version>-->
+<!--        </dependency>-->
 
-        <!-- Axon -->
-        <dependency>
-            <groupId>org.axonframework</groupId>
-            <artifactId>axon-test</artifactId>
-            <version>4.5.10</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.axonframework</groupId>
-            <artifactId>axon-spring-boot-starter</artifactId>
-            <version>${axon-spring-boot-starter.version}</version>
-        </dependency>
+<!--        &lt;!&ndash; Axon &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.axonframework</groupId>-->
+<!--            <artifactId>axon-test</artifactId>-->
+<!--            <version>4.5.10</version>-->
+<!--            <scope>test</scope>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.axonframework</groupId>-->
+<!--            <artifactId>axon-spring-boot-starter</artifactId>-->
+<!--            <version>${axon-spring-boot-starter.version}</version>-->
+<!--        </dependency>-->
 
-        <!-- Spring -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-validation</artifactId>
-            <version>2.7.0</version>
-        </dependency>
+<!--        &lt;!&ndash; Spring &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.boot</groupId>-->
+<!--            <artifactId>spring-boot-starter-validation</artifactId>-->
+<!--            <version>2.7.0</version>-->
+<!--        </dependency>-->
 
-        <!-- Kotlin -->
-        <dependency>
-            <groupId>org.jetbrains.kotlin</groupId>
-            <artifactId>kotlin-stdlib</artifactId>
-            <version>${kotlin-stdlib.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.jetbrains.kotlin</groupId>
-            <artifactId>kotlin-test</artifactId>
-            <version>${kotlin-test.version}</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.jetbrains.kotlin</groupId>
-            <artifactId>kotlin-reflect</artifactId>
-            <version>1.7.0</version>
-        </dependency>
-    </dependencies>
+<!--        &lt;!&ndash; Kotlin &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.jetbrains.kotlin</groupId>-->
+<!--            <artifactId>kotlin-stdlib</artifactId>-->
+<!--            <version>${kotlin-stdlib.version}</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.jetbrains.kotlin</groupId>-->
+<!--            <artifactId>kotlin-test</artifactId>-->
+<!--            <version>${kotlin-test.version}</version>-->
+<!--            <scope>test</scope>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.jetbrains.kotlin</groupId>-->
+<!--            <artifactId>kotlin-reflect</artifactId>-->
+<!--            <version>1.7.0</version>-->
+<!--        </dependency>-->
+<!--    </dependencies>-->
 
     <repositories>
         <repository>
@@ -75,23 +75,23 @@
         </repository>
     </repositories>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.jetbrains.kotlin</groupId>
-                <artifactId>kotlin-maven-plugin</artifactId>
-                <version>${kotlin-stdlib.version}</version>
-                <executions>
-                    <execution>
-                        <id>compile</id>
-                        <phase>compile</phase>
-                        <goals>
-                            <goal>compile</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-        </plugins>
-    </build>
+<!--    <build>-->
+<!--        <plugins>-->
+<!--            <plugin>-->
+<!--                <groupId>org.jetbrains.kotlin</groupId>-->
+<!--                <artifactId>kotlin-maven-plugin</artifactId>-->
+<!--                <version>${kotlin-stdlib.version}</version>-->
+<!--                <executions>-->
+<!--                    <execution>-->
+<!--                        <id>compile</id>-->
+<!--                        <phase>compile</phase>-->
+<!--                        <goals>-->
+<!--                            <goal>compile</goal>-->
+<!--                        </goals>-->
+<!--                    </execution>-->
+<!--                </executions>-->
+<!--            </plugin>-->
+<!--        </plugins>-->
+<!--    </build>-->
 
 </project>
